@@ -48,9 +48,49 @@ table {
 }
 
 * {
+    
     box-sizing: border-box;
 }
+.mainNav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding:1%;
+    background-color: white;
+    margin:0% 0% 1% 11%;
+}
+.mainNav a{
+    text-decoration: none;
+    color: black;
+    padding: .8%;
+    font-size: 1.2rem;
+    text-shadow: black 1px 1px;
+    margin-top: 4.5%;
+}
+.navDiv{
+    display: flex;
+    justify-content: space-around;
+    width:60%;
+    margin-right: 15%;
+}
+.logo{
+    margin-left: 10%;
+    padding:.35%;
+}
+.logo img{
+    width: 150%;
+}
+.jumbo{
+    display: flex;
+    justify-content: center;
+}
+.jumbo img{
+    width: 60%;
+}
 
+.text-container h2{
+    font-size: 1.5rem;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -67,11 +107,13 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 
 .top-content {
+    font-size: 1.3rem;
+    margin-top:2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -91,6 +133,7 @@ p {
 }
 
 .middle-content h2 {
+    font-size: 1.5rem;
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -110,6 +153,36 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .box:nth-child(1){
+    background-color: teal;
+}
+.middle-content .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .box:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .box:nth-child(4){
+    background-color: coral;
+}
+.middle-content .box:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .box:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .box:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .box:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .box:nth-child(9){
+    background-color: indigo;
+}
+.middle-content .box:nth-child(10){
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +216,63 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* ABOUT */
+.aboutDesc{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.desc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 2% 0% 7% 2.5%;
+}
+.aboutDesc h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-right: 94%;
+}
+.aboutDesc p{
+    word-spacing: 3px;
+    font-size: 1.3rem;
+}
+.flexControl{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.left, .right{
+    width: 47%;
+}  
+.left img, .right img{
+    width: 100%;
+}
+.left h2, .right h2{
+    width: 100%;
+}
+.buttons{
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 15%;
+    padding: 3% 0% 3% 0%;
+    text-align: center;
+    margin:4% 0% 4% 0%;
+}
+.buttons a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 7% 23% 7% 23%;
+}
+.endAll h2{
+    width: 100%;
+    margin: 5% 0% 0% 5%;
+}
+.endAll p{
+    margin: 2% 5% 5% 5%;
 }
